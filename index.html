@@ -4,82 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Alurabooks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <header class="cabeçalho"> 
-        <img class="cabeçalho-imagem" src="imagen.jpeg" alt="Logo do Colégio JK">
-        <ul class="cabeçalho-lista">
-            <li class="cabeçalho-lista-item">Escola</li>
-            <li class="cabeçalho-lista-item">Estudante</li>
-        </ul>
-    </header>
-<section class="escola">
-
-<div class="escola-div-conteudo"> 
-    <h2 class="escola-titulo">Sobre a escola </h2>
-    <p class="escola-texto-um">A escola JK</p>
-    <p class="escola-texto-dois"> Somos da turma do 2 ano </p>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu">
+    <span class="cabeçalho__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulos">Categorias</li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu_link">Programação</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu_link">Front-end</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu_link">infraestrutura</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu_link">Business</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu_link">Design & UX</a>
+                </li>
+            </ul>
+    <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
 </div>
-
-<img class="escola-imagem" src="jk.jpeg" alt="Professora no Quadro">
-
-</section>
-
-
-
-<section class="estudante"> 
-    <h2 class="estudante-titulo"> Quem são os estudantes? </h2>
- <div class="estudante-todos">
-
-<div class="estudante-div">
-    <img class="estudante-imagem" src="jhonatan.jpg" alt="jhonatan">
-    <h3>JHONATAN</h3>
-    
-    <a href=""></a><img class="img" src="twitter.png">
-    <a href="https://github.com/XXXJNNY"><img class="img" src="github.png"></a>
-    <a href=""></a><img class="img" src="pinterest.png">
+<div class="container">
+    <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+    <a href="#"><img src="img/Compras.svg" alt="Carrinhos de Compras" class="container__imagem"></a>
+    <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
 </div>
-
-<div class="estudante-div">
-    <img class="estudante-imagem" src="Derick.png" alt="Derick">
-    <H3>DERICK</H3>
-    
-    <a href=""></a><img class="img" src="twitter.png">
-    <a href="https://github.com/Darykiii"><img class="img" src="github.png"></a>
-    <a href=""></a><img class="img" src="pinterest.png">
-</div>
-<div class="estudante-div">
-    <img class="estudante-imagem" src="joao.jpeg" alt="joão">
-    <H3>JOAO</H3>
-    
-    <a href=""></a><img class="img" src="twitter.png">
-    <a href="https://github.com/JoaoCorsete/JoaoCorsete"></a><img class="img" src="github.png">
-    <a href=""></a><img class="img" src="pinterest.png">
-</div><div class="estudante-div">
-    <img class="estudante-imagem" src="marcos.jpeg" alt="marcos">
-    <H3>MARCOS</H3>
-    <a href=""></a><img class="img" src="twitter.png">
-    <a href="https://github.com/JalinHabbei/JalinHabbei"></a><img class="img" src="github.png">
-    <a href=""></a><img class="img" src="pinterest.png">
-
-</div>
-</div>
-
-
-
-</div>
-</section>
-
-
-
-    <footer class="rodape-imagem">
-        <img src="jkk.jpeg" alt="Logo jk">
-    </footer>
+</header>
 
 </body>
 </html>
